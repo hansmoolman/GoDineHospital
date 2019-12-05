@@ -1,0 +1,151 @@
+$stable: #F2F2F2;
+$positive: #0060AA;
+$calm: #0090FF;
+$balanced: #60AA00;
+$assertive: #FF2019;
+$royal: #AA0060;
+$dark: #666666;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+/* Side menu */
+.side-menu-header {
+	margin: 0;
+	padding: 0;
+}
+
+.side-menu-subheader {
+	margin: 0;
+	padding: 0;
+}
+
+.side-menu-item {
+	color: #FFFFFF;
+	border: 0px;
+	background: none;
+	font-weight: 400;
+	.item-content {
+		background: none;
+		&.activated {
+			background: #D10076;
+		}
+		
+	}
+}
+/* Landing page */
+.landing-header {
+	font-size: 4em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+.landing-subheader {
+	font-size: 3em;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+.landing-loading {
+	font-size: 2em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+/* Login */
+.login-text-input {
+	margin: 2px 0;
+	outline: 0;
+	border-width: 0 0 1px;
+	border-color: #D7D7D7;
+}
+
+.button-inactive {
+	background-color: #F2F2F2;
+	border: 1px solid #CCCCCC;
+}
+
+/* Search box container */
+.search-box-container {
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: -99999;
+	background-color: #0060AA;
+	padding: 20px 8px 50px 8px;
+	margin-bottom: 0px;
+}
+
+/* Page container */
+.page-container {
+	z-index: 9999999;
+	border-radius: 10px 10px 0 0;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0px -10px 10px 0px rgba(0, 0, 0, 0.20);
+	-moz-box-shadow: 0px -10px 10px 0px rgba(0, 0, 0, 0.20);
+	box-shadow: 0px -10px 10px 0px rgba(0, 0, 0, 0.20);
+	padding: 20px 0;
+	margin-top: -20px;
+}
+
+/* Select dropdown */
+.selector {
+	line-height: 1;
+	letter-spacing: 0.1px;
+	color: #A1A1A1;
+	border: solid 1px #D7D7D7;
+	border-radius: 10px;
+	padding: 5px 10px;
+	text-align: left;
+}
+
+/* Home */
+.home-card {
+	background-color: #F2F2F2;
+	border: 1px solid #D7D7D7;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+.home-card-header {
+	background-color: #F2F2F2;
+	color: #AA0060;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.home-card-content {
+	background-color: #F2F2F2;
+}
+
+body {
+	color: #666666;
+}
+
+body.platform-ios {
+	font-family: Raleway, sans-serif;
+}
+
+.ionic-body.platform-ios {
+	font-family: Raleway, sans-serif;
+}
+
+body.platform-android {
+	font-family: Raleway, sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: Raleway, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+
